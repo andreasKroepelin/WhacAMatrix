@@ -3,7 +3,7 @@ A visualisation of the Jacobi algorithm
 ---
 The idea of this program is to see the Jacobi algorithm for matrix diagonalization as well as the Gerschgorin circles in action.
 
-The Jacobi algorithm iteratively applies orthogonal operations (Givens rotations) to a symmetric matrix which leads to the decomposition ![decomposition](http://bit.ly/2w6vmvA) with *R* orthogonal and ![diagonal](http://bit.ly/2P0zhkC) and ![eigen](http://bit.ly/2wbJ7t0) are the eigenvalues of *A*.
+The Jacobi algorithm iteratively applies orthogonal operations (Givens rotations) to a symmetric matrix which leads to the decomposition ![decomposition](http://www.sciweavers.org/tex2img.php?eq=A%20%3D%20R%5E%5Ctop%20D%20R&bc=White&fc=Black&im=png&fs=12&ff=cmbright&edit=0) with *R* orthogonal and ![diagonal](http://bit.ly/2P0zhkC) and ![eigen](http://bit.ly/2wbJ7t0) are the eigenvalues of *A*.
 
 In each iteration of the Jacobi algorithm a non-diagonal element is chosen to be set to zero. The fact that it is not guranteed that this element stays zero in future iterations has inspired the name of this program. Just like the moles in [Whac A Mole](https://en.wikipedia.org/wiki/Whac-A-Mole), the non-diagonal elements of the matrix will pop up again. But the Jacobi algorithm converges quiet fast, hence you won't have to hit the same entry too often.
 
